@@ -1,0 +1,25 @@
+/* element selectors */
+h1 {
+  color: blue;
+}
+h2 {
+  color: red;
+}
+/* css rule */
+/* selectors */
+/* declaration block */
+/* declaration */
+/* property */
+/* value */
+
+/* paragraph */
+p {
+  color: gray;
+}
+
+/* group selectors */
+
+h1,
+h2 {
+  font-size: 3rem;
+}
