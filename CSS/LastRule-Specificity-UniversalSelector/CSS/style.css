@@ -1,0 +1,9 @@
+/* Last Rule And Specificity * Universal Selector */
+
+p {
+  color: red;
+}
+/* universal */
+* {
+  color: blue;
+}
