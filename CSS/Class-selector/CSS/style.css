@@ -1,0 +1,18 @@
+/* class selector */
+
+.green {
+  color: green;
+}
+
+#title {
+  font-size: 4rem;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.red {
+  color: red;
+  background: gray;
+}
