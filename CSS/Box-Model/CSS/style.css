@@ -1,0 +1,45 @@
+/* 
+CSS Box Model
+Padding
+Margin
+Border
+*/
+
+/* 
+Border-Radius
+Negative Margin
+*/
+
+/* * {
+  margin: 0;
+} */
+
+h1 {
+  background: red;
+  padding: 20px;
+  /* margin: 30px; */
+  /* border-style: dashed;
+  border-width: 2px;
+  border-color: green; */
+
+  /* border-bottom-style: dashed;
+  border-bottom-width: 5px;
+  border-bottom-color: #222222; */
+
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+p {
+  background: blue;
+  /* padding: 25px; */
+  /* padding: 30px 60px; top-bottom & left right*/
+  /* padding: 20px 40px 60px 10px; top bottom right left */
+  padding: 20px;
+  /* margin: 50px 20px; */
+  /* margin: 100px 20px 20px 50px; */
+  /* margin: 30px; */
+  border: 5px solid yellow;
+  border-radius: 50%;
+  margin-top: -50px;
+}
