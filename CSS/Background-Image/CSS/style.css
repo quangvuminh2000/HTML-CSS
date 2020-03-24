@@ -1,0 +1,51 @@
+/* Last Rule Orders */
+/* background-size */
+/* background-position */
+/* background-attachment */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  min-height: 100vh;
+  color: green;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.big-img {
+  border: 2px solid red;
+  background: url("./Images/big-img.jpeg");
+  /* background-repeat: no-repeat */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.small-img {
+  border: 2px solid red;
+  /* background: url("./Images/small.jpeg"); */
+  background: url("./Images/car.jpeg");
+  /* background-repeat: round; */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* background-position: 20% 50%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.folder-img {
+  background: url("./Images/big-img.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
