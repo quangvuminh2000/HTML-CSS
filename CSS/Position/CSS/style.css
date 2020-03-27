@@ -1,0 +1,44 @@
+/* position static */
+/* position relative */
+/* position absolute */
+/* position fixed */
+
+button {
+  background: red;
+  font-size: 2rem;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
+  /* position: static; */
+  position: relative;
+}
+
+.one {
+  background: blue;
+  /* position: relative; */
+  /* top: 50px; */
+  /* left: 2rem; */
+  /* right: 50%; */
+  /* bottom: 20px; */
+}
+
+.two {
+  background: green;
+  /* position: relative; */
+}
+
+.special {
+  background: lightcoral;
+  font-size: 2rem;
+  /* relative to the nearest ancestor which has the position of relative */
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
