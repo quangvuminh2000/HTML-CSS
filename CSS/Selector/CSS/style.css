@@ -1,0 +1,79 @@
+/* Basic Selectors */
+/* Descendant and Child Combinators */
+/* ::first-line ::first-letter */
+/* :hover */
+/* :link :visited :hover :active */
+/* :root root element of the document
+html element
+general styles
+css variables
+*/
+
+div h1 {
+  color: red;
+}
+
+/* Direct child */
+div > h1 {
+  color: blue;
+}
+
+/* Overwritten > cause more specific */
+.header h1 {
+  color: green;
+}
+
+.header > h1 {
+  color: purple;
+}
+
+/* p::first-line {
+  font-weight: bold;
+}
+
+p::first-letter {
+  font-size: 3rem;
+} */
+
+/* p:hover {
+  font-size: 2rem;
+  color: red;
+} */
+
+.header-hov:hover {
+  background: blue;
+  color: white;
+}
+
+a:link {
+  color: aqua;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: green;
+}
+
+:root {
+  /* background: red; */
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.absolute {
+  font-size: 24px;
+}
+
+.responsive {
+  font-size: 1.5rem;
+}
