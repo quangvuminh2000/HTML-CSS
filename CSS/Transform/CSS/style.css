@@ -1,0 +1,96 @@
+/* 
+transform : translate(), scale(), rotate(), skew()
+*/
+
+/* 
+transition: change over time
+transition-property:
+transition-duration:
+transition-delay:
+shorthand
+*/
+
+/* 
+how the transition takes place
+transition-timing-function:
+transition:all 3s here 5s;
+ease = default
+ease = slow start, fast, slow end
+linear = same speed start to end
+ease-in = slow start
+ease-out = slow end
+ease-in-out = slow start, fast, slow end
+*/
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  background: blue;
+  color: white;
+  margin: 15px;
+  transition: all 1s;
+}
+
+div:hover {
+  transform: translateX(100px);
+}
+
+.one {
+  background: red;
+  /* transform: translateX(50%); */
+  /* transform: scaleX(0.5); */
+  /* transform: rotate(300deg); */
+  /* transform: skewX(-20deg); */
+}
+
+.two {
+  background: green;
+  /* transform: translateY(30px); */
+  /* transform: scaleY(2); */
+  /* transform: rotateZ(45deg); */
+  /* transform: skewY(-20deg); */
+}
+
+.three {
+  background: blue;
+  /* transform: translate(200px, 300px); */
+  /* transform: scale(1.5, 1.5); */
+  /* transform: rotateY(45deg); */
+  /* transform: skew(40deg, -20deg); */
+  /* transition-property: background, border-radius;
+  transition-duration: 4s;
+  transition-delay: 3s; */
+
+  /* different */
+  /* transition: background 3s 2s, border-radius 5s 1s; */
+
+  /* same duration, delay */
+  transition: all 4s 5s;
+}
+
+.three:hover {
+  border-radius: 50%;
+  background: coral;
+}
+
+.ease {
+  /* transition: all 2s ease; */
+  transition-timing-function: ease;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.ease-in {
+  transition-timing-function: ease-in;
+}
+
+.ease-out {
+  transition-timing-function: ease-out;
+}
+
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+}
